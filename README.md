@@ -17,7 +17,7 @@ See the original CSHMM for setting up the environments.
 # What changed compared to Lin & Ding version
 1. Enable initialize the model using existing cell type labels 
 2. In the web visualization, 
-  * enable displaying the expression level of a TF's targets per path  
+  * enable displaying the average expression level of a TF's targets per path  
   * for each DE gene, enable displaying the TFs regulating it in the DE results 
   * change the coloring rules to color all cells with darker color indicating higher expression. 
   * enable displaying average expression per path 
