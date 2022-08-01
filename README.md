@@ -20,7 +20,7 @@ See the original CSHMM for setting up the environments.
 3. for visualization
   * generate .json files for visualization by running [run_json.q](run_json.q). 
   * copy .json files to the web_visualization folder and rename them as data.json and CellViz.json. 
-  * generate .db (database) by runing [run_create_table.sh](web_visualization/utils/run_create_table.sh).
+  * generate .db (database) by runing [run_create_table.sh](web_visualization/utils/run_create_table.sh) and move it to ht_bin folder.
   * boot server by command: python simpleServer.py
 
 # To-do list
