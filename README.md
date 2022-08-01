@@ -6,7 +6,7 @@ This is an updated CSHMM version initially modified and developed by [Chieh Lin]
 See the original CSHMM for setting up the environments. 
 
 # Example usages
-First generate initialization file by using [run_init.q](run_init.q) and then run CSHMM using [run_cshmm.q](run_chsmm.q). 
+First generate initialization file by using [run_init.q](run_init.q) and then run CSHMM using [run_cshmm.q](run_cshmm.q). 
 
 # References
 <a id="1">[1]</a> 
