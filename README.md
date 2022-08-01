@@ -1,6 +1,6 @@
 # Introduction
 
-This version is modified based on the CSHMM tool and the web visualization tool initially developed and implemented by [Chieh Lin](https://github.com/jessica1338) & [Jun Ding](https://github.com/phoenixding) and is associated with the published work [[1]](#1) (refered to as Lin & Ding version). 
+This version is modified based on the CSHMM tool and the web visualization tool developed and implemented by [Chieh Lin](https://github.com/jessica1338) & [Jun Ding](https://github.com/phoenixding) and is associated with the published work [[1]](#1) (refered to as Lin & Ding version). 
 
 # Installation
 See the original CSHMM for setting up the environments. 
