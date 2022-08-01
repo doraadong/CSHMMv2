@@ -3,8 +3,10 @@
 This is an updated CSHMM version initially modified and developed by [Chieh Lin](https://github.com/jessica1338) & [Jun Ding](https://github.com/phoenixding) and is associated with the published work [[1]](#1). 
 
 # Installation
-
 See the original CSHMM for setting up the environments. 
+
+# Example usages
+First generate initialization file by using run_init.q and then run CSHMM using run_cshmm.q. 
 
 # References
 <a id="1">[1]</a> 
