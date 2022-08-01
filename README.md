@@ -1,15 +1,6 @@
 # Introduction
 
-This is an modified CSHMM version, which is based on the CSHMM tool and the web visualization tool initially developed by [Chieh Lin](https://github.com/jessica1338) & [Jun Ding](https://github.com/phoenixding) and is associated with the published work [[1]](#1) (refered to as Lin & Ding version). 
-
-# What changed compared to Lin & Ding version
-1. Enable initialize the model using existing cell type labels 
-2. In the web visualization, 
-  * enable displaying the expression level of a TF's targets per path  
-  * for each DE gene, enable displaying the TFs regulating it in the DE results 
-  * change the coloring rules to color all cells with darker color indicating higher expression. 
-  * enable displaying average expression per path 
-  * enable downloading TFs and eTFs. 
+This version is modified based on the CSHMM tool and the web visualization tool initially developed and implemented by [Chieh Lin](https://github.com/jessica1338) & [Jun Ding](https://github.com/phoenixding) and is associated with the published work [[1]](#1) (refered to as Lin & Ding version). 
 
 # Installation
 See the original CSHMM for setting up the environments. 
@@ -22,6 +13,24 @@ See the original CSHMM for setting up the environments.
   * copy .json files to the [web_visualization](web_visualization) folder and rename them as data.json and CellViz.json. 
   * generate .db (database) by runing [run_create_table.sh](web_visualization/utils/run_create_table.sh) and move it to ht_bin folder.
   * boot server using [simpleServer.py](web_visualization/simpleServer.py).
+
+# What changed compared to Lin & Ding version
+1. Enable initialize the model using existing cell type labels 
+2. In the web visualization, 
+  * enable displaying the expression level of a TF's targets per path  
+  * for each DE gene, enable displaying the TFs regulating it in the DE results 
+  * change the coloring rules to color all cells with darker color indicating higher expression. 
+  * enable displaying average expression per path 
+  * enable downloading TFs and eTFs. 
+
+# Authors
+Initial contributors:
+* [Chieh Lin](https://github.com/jessica1338) 
+* [Jun Ding](https://github.com/phoenixding)
+
+Other contributors:
+* [Dora Li](https://github.com/doraadong)
+
 
 # To-do list
 1. Update the readme.pdf file for the web visualization tool. 
